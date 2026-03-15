@@ -54,23 +54,7 @@ manim -pqh <file_name>.py <ClassName>
 - **Simulated Annealing**: `SA` trong `simulate_anneling.py`
 - **Hill Climbing**: `HC` trong `hill_climbing.py`
 
-## Mô tả chi tiết
 
-### Particle Swarm Optimization (PSO)
-
-Mô phỏng bầy đàn với 20 cá thể. Video hiển thị công thức cập nhật vận tốc và vị trí, cho thấy sự tương tác giữa $P_{best}$ (tốt nhất cá nhân) và $G_{best}$ (tốt nhất bầy đàn).
-
-### Differential Evolution (DE)
-
-Minh họa quá trình đột biến (Mutation) qua vector mutant $V = a + F(b - c)$ và quá trình lai ghép (Crossover) để tạo ra cá thể thử nghiệm (Trial vector).
-
-### Simulated Annealing (SA)
-
-Mô phỏng quá trình "ủ thép" trong không gian 3D. Hiển thị xác suất chấp nhận các trạng thái xấu hơn ở nhiệt độ cao để thoát khỏi cực tiểu địa phương (Local Minimum).
-
-### Hill Climbing (HC)
-
-Minh họa cơ bản về việc leo đồi trong không gian 2D. Cho thấy thuật toán dễ dàng bị kẹt tại các đỉnh local khi không có cơ chế thoát hiểm.
 
 ## Cấu trúc thư mục
 
