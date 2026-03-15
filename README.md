@@ -61,5 +61,3 @@ manim -pqh <file_name>.py <ClassName>
 - `*.py`: Các file mã nguồn thuật toán.
 - `media/`: Chứa các file ảnh và video sau khi render.
 
----
-*Dự án được tạo ra nhằm mục đích học tập và giảng dạy về các thuật toán tối ưu hóa.*
